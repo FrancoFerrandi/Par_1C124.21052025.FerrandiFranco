@@ -14,7 +14,7 @@ public class AgenciaEspacial {
     private List <Nave> naves = new ArrayList<>();
 
     public void agregarNave(Nave nave) {
-        if (naves.contains(nave)) { //CONTAINS USA EL METODO EQUALS, que en este caso mira titulo y año si son =
+        if (naves.contains(nave)) {
             System.out.println("Ya existe una nave con ese nombre y anio de lanzamiento.");
         } else {
             naves.add(nave);

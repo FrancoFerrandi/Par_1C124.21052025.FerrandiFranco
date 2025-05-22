@@ -29,12 +29,12 @@ public abstract class Nave implements Comparable<Nave>{
             return false;
         }
         Nave otra = (Nave) obj;
-        return this.nombre.equalsIgnoreCase(otra.nombre) && this.anioLazamiento == otra.anioLazamiento; //dos publicaciones son iguales si tienen el mismo titulo y año de publicación)
+        return this.nombre.equalsIgnoreCase(otra.nombre) && this.anioLazamiento == otra.anioLazamiento; 
     }
 
     @Override
     public int compareTo(Nave otra) {
-        return Integer.compare(this.anioLazamiento, otra.anioLazamiento); // más antiguo primero
+        return Integer.compare(this.anioLazamiento, otra.anioLazamiento); 
     }
 
     @Override
