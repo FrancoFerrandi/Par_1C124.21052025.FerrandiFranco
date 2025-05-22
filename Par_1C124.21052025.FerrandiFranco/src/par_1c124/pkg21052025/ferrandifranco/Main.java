@@ -8,7 +8,7 @@ package par_1c124.pkg21052025.ferrandifranco;
  *
  * @author el_fr
  */
-public class Par_1C12421052025FerrandiFranco {
+public class Main {
 
     /**
      * @param args the command line arguments
